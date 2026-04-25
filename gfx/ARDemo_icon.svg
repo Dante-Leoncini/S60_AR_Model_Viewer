@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="32"
+   width="32"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 32 32"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata1" />
+  <circle
+     style="fill:#000000;stroke-width:3.3;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     id="path1"
+     cx="16"
+     cy="16"
+     r="16" />
+  <rect
+     style="fill:#ffffff;stroke:none;stroke-width:3.3;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     id="rect4"
+     width="16"
+     height="16"
+     x="8"
+     y="8" />
+  <rect
+     style="fill:#ff0000;stroke:none;stroke-width:3.3;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     id="rect1"
+     width="8"
+     height="8"
+     x="16"
+     y="16" />
+  <path
+     style="fill:#00ff00;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 3.1778427,14.476839 9.4158303,14.241443 c 0,0 -1.999136,-9.54044 3.406327,-12.718282 5.405463,-3.177843 12.83598,-1.876255 12.83598,-1.876255 L 24.221431,2.2738178 8,8 Z"
+     id="path2" />
+</svg>

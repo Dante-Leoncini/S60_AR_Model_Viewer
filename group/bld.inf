@@ -1,0 +1,8 @@
+PRJ_PLATFORMS
+DEFAULT GCCE
+
+PRJ_MMPFILES
+gnumakefile icons_scalable_dc.mk
+ARDemo.mmp
+
+PRJ_EXPORTS

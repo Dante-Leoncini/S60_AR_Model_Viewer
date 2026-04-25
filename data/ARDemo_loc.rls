@@ -1,0 +1,3 @@
+rls_string STRING_short_caption "ARDemo"
+rls_string STRING_r_long_caption "SMMT tracker demo"
+rls_string STRING_r_options_import_obj "Import Wavefront (.obj)"

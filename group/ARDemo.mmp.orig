@@ -1,0 +1,76 @@
+/*
+ * Copyright � 2008 Nokia Corporation.
+ */
+TARGET                                  ARDemo.exe 
+TARGETTYPE                              exe 
+UID                                     0x100039CE 0xA000FFDF 
+SECUREID                                0xA000FFDF 
+EPOCSTACKSIZE                           0x10000 
+EPOCHEAPSIZE                            0x100000 0x1300000 
+ARMFPU                                  VFPV2 
+VENDORID                                0 
+CAPABILITY                              UserEnvironment 
+LANG                                    SC 01 09 
+SOURCEPATH                              ..\data 
+START RESOURCE ARDemo.rss 
+  TARGETPATH                              \resource\apps 
+  HEADER                                   
+END  
+
+START RESOURCE ARDemo_reg.rss 
+  TARGETPATH                              \private\10003a3f\apps 
+END  
+
+
+SOURCEPATH                              ..\src 
+SOURCE                                  CameraAppApp.cpp 
+SOURCE                                  CameraAppAppUi.cpp 
+SOURCE                                  CameraAppDocument.cpp 
+SOURCE                                  CameraAppBaseContainer.cpp 
+SOURCE                                  CameraAppView.cpp 
+SOURCE                                  CameraCaptureEngine.cpp 
+SOURCE                                  CameraAppController.cpp 
+SOURCE                                  CGLengine.cpp 
+SOURCE                                  bitmapmethods.cpp 
+SOURCE                                  CPictureLoader.cpp 
+SOURCE                                  eikonenvironment.cpp 
+SOURCE                                  PhEngine.cpp 
+SOURCE                                  pltIndependentPh.cpp 
+SOURCE                                  text.cpp 
+SOURCE                                  CreateObjGL.cpp 
+
+
+USERINCLUDE                             . 
+USERINCLUDE                             ..\inc 
+SYSTEMINCLUDE                           . 
+SYSTEMINCLUDE                           \epoc32\include 
+SYSTEMINCLUDE                           \epoc32\include\mmf\plugin 
+LIBRARY                                 euser.lib 
+LIBRARY                                 apparc.lib 
+LIBRARY                                 cone.lib 
+LIBRARY                                 eikcore.lib 
+LIBRARY                                 eikcoctl.lib 
+LIBRARY                                 avkon.lib 
+LIBRARY                                 fbscli.lib 
+LIBRARY                                 bitgdi.lib 
+LIBRARY                                 ws32.lib 
+LIBRARY                                 ecam.lib 
+LIBRARY                                 gdi.lib 
+LIBRARY                                 hal.lib 
+LIBRARY                                 imageconversion.lib 
+LIBRARY                                 platformenv.lib 
+LIBRARY                                 aknskins.lib 
+LIBRARY                                 efsrv.lib 
+LIBRARY                                 bafl.lib 
+LIBRARY                                 apgrfx.lib 
+LIBRARY                                 mediaclientaudio.lib 
+LIBRARY                                 MediaClientImage.lib 
+LIBRARY                                 flogger.lib 
+LIBRARY                                 hlplch.lib 
+LIBRARY                                 sysutil.lib 
+LIBRARY                                 CommonEngine.lib 
+LIBRARY                                 centralrepository.lib 
+LIBRARY                                 libgles_cm.lib 
+LIBRARY                                 HWRMLightClient.lib 
+LIBRARY                                 estor.lib 
+STATICLIBRARY                           smmt.lib

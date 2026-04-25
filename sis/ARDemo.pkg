@@ -1,0 +1,36 @@
+; Installation file for ARDemo
+; 
+;Language - standard language definitions
+&01, 09
+
+; standard SIS file header
+#{"ARDemo","ARDemo"},(0xA000FFDF),0,4,0
+
+;Localised Vendor name
+%{"Dante Leoncini","Dante Leoncini"}
+
+;Unique Vendor name
+:"Dante Leoncini"
+
+;Supports S60 3rd Edition
+[0x101F7961], 0, 0, 0,{"Series60ProductID","Series60ProductID"}
+
+;Files to install
+
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\release\gcce\urel\ARDemo.exe"
+                                    - "!:\sys\bin\ARDemo.exe"
+                                    
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\resource\apps\ARDemo.RSC"
+                                    - "!:\resource\apps\ARDemo.RSC"
+                                 
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\private\10003a3f\apps\ARDemo_reg.RSC"
+                          -"!:\private\10003a3f\import\apps\ARDemo_reg.RSC"
+
+;Icon resources
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\resource\apps\ARDemo_aif.mif"-"!:\resource\apps\ARDemo_aif.mif"
+
+
+;Language resources
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\resource\apps\ARDemo.r01" -"!:\resource\apps\ARDemo.r01"
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\private\10003a3f\apps\ARDemo_reg.rsc" -"!:\private\10003a3f\import\apps\ARDemo_reg.rsc"
+"C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\data\z\private\10003a3f\apps\ARDemo_reg.r01" - "!:\private\10003a3f\import\apps\ARDemo_reg.r01"

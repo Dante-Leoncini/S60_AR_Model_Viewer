@@ -1,0 +1,6 @@
+#ifndef __LOCALIZATION__
+#define __LOCALIZATION__
+
+#include "..\data\ARDemo_loc.l01"
+
+#endif // __LOCALIZATION__

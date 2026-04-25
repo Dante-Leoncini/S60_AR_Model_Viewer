@@ -1,0 +1,15 @@
+// LOCALISATION STRINGS
+
+#define qtn_options_exit    "Exit"
+#define options_import_obj  "Import Wavefront (.obj)"
+
+// example caption strings for app
+#define qtn_app_caption_string "AR game demo for Symbain 9.2"
+
+#define qtn_app_short_caption_string "ARDemo"
+
+// dialog texts
+#define qtn_app_about_dialog_title "ARDemo"
+#define qtn_app_about_dialog_text "AR demo for SMMT tracker cellagames.com"
+
+#define qtn_appl_cover_warning "Close cover to use camera"

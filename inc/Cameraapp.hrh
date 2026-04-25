@@ -1,0 +1,59 @@
+#ifndef __CAMERAAPP_HRH__
+#define __CAMERAAPP_HRH__
+
+enum TARDemoCommands {
+    EImportOBJ = 0x6000
+};
+
+enum TEngineState
+    {
+    EEngineNotReady,
+    EEngineNoHardware,
+    EEngineIdle,
+    EStartingViewFinder,
+    ESnappingPicture,
+    EStartToSaveImage,
+    EConvertingImage,
+    EConverted,
+    EFocusing
+    };
+
+enum TCameraMode
+    {
+    EIdle,
+    EViewFinding,
+    EImageSnapped
+    };
+
+// Status application view ids.
+enum  TCameraViewIds
+    {
+    EViewIdStandard = 1,
+    EViewIdPortrait = 2   
+    };
+
+enum TCameraAppTabViewId
+    {
+    ECameraAppView1Tab= 1,
+    ECameraAppView2Tab
+    };
+
+enum TCameraOrientation
+    {
+    ECameraLandscape,
+    ECameraPortrait
+    };
+
+enum TCameraReasons
+    {
+    ECameraNoReasonSB = 0,
+    ECameraBatteryLow,
+    ECameraPhoneCallHandling,
+    ECameraDataCallHandling,
+    ECameraTimeout,
+    ECameraHwFailure,
+    ECameraOverflow,
+    ECameraInUse
+    };
+
+#endif // __CAMERAAPP_HRH__

@@ -1,0 +1,70 @@
+#ifndef __SHED_H__
+#define __SHED_H__
+const TInt KNumBoxVertices = 4; 
+const TInt KNumBoxFaces = 2;
+
+#define BOX_LENGTH (4*GLUNITY/4)
+
+const TInt KBoxVertexData[] = {
+	-BOX_LENGTH, 0, -BOX_LENGTH, 
+	 BOX_LENGTH, 0, -BOX_LENGTH, 
+	 BOX_LENGTH, 0, BOX_LENGTH, 
+	-BOX_LENGTH, 0, BOX_LENGTH
+};  
+
+
+const TInt KBoxTxtData[] = {
+	GLUNITY/2 - GLINVSQRT5, GLUNITY/2 - GLINVSQRT5,
+	GLUNITY/2 + GLINVSQRT5, GLUNITY/2 - GLINVSQRT5,
+	GLUNITY/2 + GLINVSQRT5, GLUNITY/2 + GLINVSQRT5,
+	GLUNITY/2 - GLINVSQRT5, GLUNITY/2 + GLINVSQRT5
+}; 
+
+const TUint16 KBoxFaceData[] = { 
+  1, 0, 2,   
+  2, 0, 3  
+}; 
+
+
+/*const TInt KNumRectVertices = 4; 
+const TInt KNumRectFaces = 2;
+
+const TInt KRectVertexData[] = {
+-2*GLUNITY/4/(1<<SCALE_SHIFT), 0, -2*GLUNITY/4/(1<<SCALE_SHIFT), 
+ 2*GLUNITY/4/(1<<SCALE_SHIFT), 0, -2*GLUNITY/4/(1<<SCALE_SHIFT), 
+ 2*GLUNITY/4/(1<<SCALE_SHIFT), 0, 2*GLUNITY/4/(1<<SCALE_SHIFT), 
+-2*GLUNITY/4/(1<<SCALE_SHIFT), 0, 2*GLUNITY/4/(1<<SCALE_SHIFT) 
+};
+
+
+const TInt KRectSmallVertexData[] = {
+-GLUNITY/4/(1<<SCALE_SHIFT), 0, -GLUNITY/4/(1<<SCALE_SHIFT), 
+ GLUNITY/4/(1<<SCALE_SHIFT), 0, -GLUNITY/4/(1<<SCALE_SHIFT), 
+ GLUNITY/4/(1<<SCALE_SHIFT), 0, GLUNITY/4/(1<<SCALE_SHIFT), 
+-GLUNITY/4/(1<<SCALE_SHIFT), 0, GLUNITY/4/(1<<SCALE_SHIFT) 
+};*/
+
+
+/*#define TXT_DELTA (3*GLUNITY/16)
+
+const TInt KRectTxtData[] = {
+   TXT_DELTA,		TXT_DELTA,
+   GLUNITY - TXT_DELTA, TXT_DELTA,
+   GLUNITY - TXT_DELTA, GLUNITY - TXT_DELTA,
+   TXT_DELTA,	    GLUNITY - TXT_DELTA,
+};
+
+const TUint16 KRectFaceData[] = { 
+  1, 0, 2,   
+  2, 0, 3, 
+};*/
+
+const TInt KBoxColors[] = {
+	GLUNITY, 2*GLUNITY/3, GLUNITY/2,
+	0, GLUNITY, GLUNITY/8,
+	0, 2*GLUNITY/3, GLUNITY,
+	3*GLUNITY/4, 0, 0,
+	GLUNITY, GLUNITY, 0
+};
+
+#endif
